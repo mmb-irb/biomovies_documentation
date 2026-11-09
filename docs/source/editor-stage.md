@@ -1,6 +1,8 @@
 # The stage
 
-<!-- picture: the stage with the tools strip, a label and a distance -->
+<img src="_static/pictures/stage.png" alt="The stage, with a label (Asp25) and a distance" style="margin-bottom:0;" />
+
+<span style="font-size:12px;">The stage, with a label (Asp25) and a distance</span>
 
 The **stage** shows the structure as it looks at the timeline cursor. What the mouse does on it depends on what is
 selected in the timeline, and the status bar says it at each moment:
@@ -32,7 +34,9 @@ with it in its transitions.
 
 ## The tools strip
 
-<!-- picture: the tools strip -->
+<img src="_static/pictures/tools-strip.png" alt="The tools strip" style="max-width:70px; margin-bottom:0;" />
+
+<span style="font-size:12px;">The tools strip</span>
 
 The strip on the left of the stage. Drag it by its handle (the dotted bar at its top) to put it anywhere on the stage,
 and double-click the handle to fold it. *View > Tools* hides it.
@@ -67,7 +71,9 @@ meanwhile. Labels, distances and changes to the representations are still saved 
 
 ## The sequences
 
-<!-- picture: the sequence strip under the stage -->
+<img src="_static/pictures/sequence-strip.png" alt="The sequences under the stage" style="margin-bottom:0;" />
+
+<span style="font-size:12px;">The sequences under the stage</span>
 
 The **Sequences** tool shows a strip under the stage with every chain: its name, its number of residues and its
 letters, numbered every 10, followed by its ligands and ions as named blocks and its waters as one block. Two chains fit

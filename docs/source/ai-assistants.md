@@ -1,7 +1,5 @@
 # AI assistants
 
-<!-- picture: an assistant building a movie, the editor behind the "is working" card -->
-
 An **AI assistant** can build and change movies in biomovies for you: ask it in its own chat (*"make a 20-second movie
 of 1HSG showing how the inhibitor sits in the protease"*) and watch the movie being made in the editor. It opens the
 structure, plans the clips, builds them, looks at the result and corrects it.
@@ -18,7 +16,9 @@ biomovies includes no AI and no account of its own: the assistant's own plan or 
 
 ## Connecting an assistant
 
-<!-- picture: the Assistant connection window -->
+<img src="_static/pictures/connection-window.png" alt="The connection window" style="max-width:500px; margin-bottom:0;" />
+
+<span style="font-size:12px;">The connection window</span>
 
 **Assistant > Connection…** opens the connection window, on the start screen or in the editor.
 

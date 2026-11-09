@@ -1,6 +1,8 @@
 # Templates
 
-<!-- picture: the templates window with a ready-made template and its preview -->
+<img src="_static/pictures/templates-window.png" alt="The templates window" style="margin-bottom:0;" />
+
+<span style="font-size:12px;">The templates window</span>
 
 A **template** is a movie without its structure: its clips and their times, representations and cameras, transitions,
 fades, descriptions, labels and measurements, and its trajectory settings. Applied to another structure, it makes the

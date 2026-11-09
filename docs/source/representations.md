@@ -1,6 +1,8 @@
 # Representations
 
-<!-- picture: the right panel with two representation cards -->
+<img src="_static/pictures/right-panel.png" alt="The right panel: the representations of clip 2" style="max-width:380px; margin-bottom:0;" />
+
+<span style="font-size:12px;">The right panel: the representations of clip 2</span>
 
 A **representation** is a set of atoms drawn in a style and a colour: the protein as a cartoon, a ligand in ball and
 stick, the water as small spheres. **Each clip has its own**: a movie changes what it shows from clip to clip, and a
@@ -81,7 +83,16 @@ From 0 (invisible) to 100 (solid). Fading the context lets the subject of a clip
 
 ## Mol. Representation
 
-<!-- picture: the styles side by side on one structure -->
+<div style="display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:8px; margin-bottom:24px;">
+<figure style="margin:0;"><img src="_static/pictures/style-cartoon.png" alt="Cartoon" style="margin-bottom:0;" /><figcaption style="font-size:12px; text-align:center;">Cartoon</figcaption></figure>
+<figure style="margin:0;"><img src="_static/pictures/style-backbone.png" alt="Backbone" style="margin-bottom:0;" /><figcaption style="font-size:12px; text-align:center;">Backbone</figcaption></figure>
+<figure style="margin:0;"><img src="_static/pictures/style-tube.png" alt="Tube" style="margin-bottom:0;" /><figcaption style="font-size:12px; text-align:center;">Tube</figcaption></figure>
+<figure style="margin:0;"><img src="_static/pictures/style-ball-stick.png" alt="Ball and stick" style="margin-bottom:0;" /><figcaption style="font-size:12px; text-align:center;">Ball and stick</figcaption></figure>
+<figure style="margin:0;"><img src="_static/pictures/style-licorice.png" alt="Licorice" style="margin-bottom:0;" /><figcaption style="font-size:12px; text-align:center;">Licorice</figcaption></figure>
+<figure style="margin:0;"><img src="_static/pictures/style-line.png" alt="Line" style="margin-bottom:0;" /><figcaption style="font-size:12px; text-align:center;">Line</figcaption></figure>
+<figure style="margin:0;"><img src="_static/pictures/style-spacefill.png" alt="Spacefill" style="margin-bottom:0;" /><figcaption style="font-size:12px; text-align:center;">Spacefill</figcaption></figure>
+<figure style="margin:0;"><img src="_static/pictures/style-surface.png" alt="Surface" style="margin-bottom:0;" /><figcaption style="font-size:12px; text-align:center;">Surface</figcaption></figure>
+</div>
 
 The style:
 

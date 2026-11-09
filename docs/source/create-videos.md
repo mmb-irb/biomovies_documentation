@@ -1,6 +1,8 @@
 # Exporting videos
 
-<!-- picture: the export window -->
+<img src="_static/pictures/export-window.png" alt="The export window" style="max-width:560px; margin-bottom:0;" />
+
+<span style="font-size:12px;">The export window</span>
 
 The **Create Video** menu makes a video of the movie, frame by frame, at the size you choose: the result does not
 depend on your screen or on the size of the window, and nothing is recorded from the screen.

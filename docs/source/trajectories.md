@@ -1,6 +1,8 @@
 # Trajectories
 
-<!-- picture: the trajectory window next to a clip playing its trajectory -->
+<img src="_static/pictures/trajectory-window.png" alt="The trajectory window, next to the right panel" style="margin-bottom:0;" />
+
+<span style="font-size:12px;">The trajectory window, next to the right panel</span>
 
 A project can have one **trajectory** of its structure: a molecular dynamics simulation, for example. Each clip
 decides whether it **plays** it, and which frames, how fast and in which direction. A clip that does not play it shows

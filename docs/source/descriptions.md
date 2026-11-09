@@ -1,6 +1,8 @@
 # Descriptions
 
-<!-- picture: a description over the stage and its settings in the right panel -->
+<img src="_static/pictures/description-panel.png" alt="A description's settings in the right panel" style="max-width:380px; margin-bottom:0;" />
+
+<span style="font-size:12px;">A description's settings in the right panel</span>
 
 A **description** is a text over the movie: a title, a sentence that explains what the clip shows. Descriptions have
 their own row in the timeline, **Descriptions**, with their own times: usually those of a clip, but they can start and
@@ -36,7 +38,10 @@ Click one of a description's keyframes: the right panel shows its settings.
 
 ## Moving along its time
 
-<!-- picture: an animated title rising from the middle to the top -->
+<div style="display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:8px; margin-bottom:24px;">
+<figure style="margin:0;"><img src="_static/pictures/description-start.png" alt="The title at its first keyframe" style="margin-bottom:0;" /><figcaption style="font-size:12px; text-align:center;">At its first keyframe: big, in the middle</figcaption></figure>
+<figure style="margin:0;"><img src="_static/pictures/description-end.png" alt="The title at its last keyframe" style="margin-bottom:0;" /><figcaption style="font-size:12px; text-align:center;">At its last keyframe: smaller, at the top</figcaption></figure>
+</div>
 
 With **Animate** on, a description can change while it is on screen: its **position**, **size** and **opacity** are
 set at its **first keyframe** and at its **last**, and it goes from one to the other along its time. For example, a

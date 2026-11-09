@@ -1,6 +1,8 @@
 # Getting started
 
-<!-- picture: the start screen -->
+<img src="_static/pictures/start-screen.png" alt="The start screen" style="margin-bottom:0;" />
+
+<span style="font-size:12px;">The start screen</span>
 
 When biomovies opens, the **start screen** offers every way to start a project. Behind it, the editor waits empty: it
 can be used once a structure is open.
@@ -34,7 +36,9 @@ A few things to know:
 
 ## The editor
 
-<!-- picture: the editor with a movie, its areas named -->
+<img src="_static/pictures/editor.png" alt="The editor: the stage with the tools strip, the right panel, the timeline and the status bar" style="margin-bottom:0;" />
+
+<span style="font-size:12px;">The editor: the stage with the tools strip, the right panel, the timeline and the status bar</span>
 
 * **Stage**, in the middle: the structure as it looks at the timeline cursor. Drag to turn it, scroll to zoom. The
   **tools strip** on its left has the tools for the stage (background, measurements, labels, the camera...).

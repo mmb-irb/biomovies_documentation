@@ -1,6 +1,8 @@
 # The timeline
 
-<!-- picture: the timeline with clips, a transition, a fade and descriptions -->
+<img src="_static/pictures/timeline.png" alt="The timeline: three clips with transitions and a fade out, and their descriptions" style="margin-bottom:0;" />
+
+<span style="font-size:12px;">The timeline: three clips with transitions and a fade out, and their descriptions</span>
 
 The **timeline**, at the bottom of the editor, is the movie in time. It has two rows:
 
@@ -66,7 +68,9 @@ When something is missing (no clip selected, not enough room), a message says wh
 
 ## The toolbar
 
-<!-- picture: the timeline toolbar, buttons numbered -->
+<img src="_static/pictures/timeline-toolbar.png" alt="The toolbar" style="margin-bottom:0;" />
+
+<span style="font-size:12px;">The toolbar</span>
 
 From left to right, after **+ New**:
 
