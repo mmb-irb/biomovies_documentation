@@ -83,3 +83,13 @@ details ul { margin-left: 15px; }
     iframe { width: 100%!important; height: auto!important; }
     img { max-width: 100%!important; height: auto!important; }
 }
+/* the offline manual (manual.rst, printed to PDF by the app repo's scripts/docs-manual.mjs): no page chrome, each
+   chapter on a new page, pictures and tables kept whole */
+@media print {
+    .wy-breadcrumbs, .rst-footer-buttons, footer, .wy-nav-side, .rst-versions, .headerlink { display: none !important; }
+    .wy-nav-content-wrap { margin-left: 0 !important; }
+    .wy-nav-content { padding: 0 !important; max-width: none !important; }
+    span[id^="document-"] + section, span[id^="document-"] + p { break-before: page; }
+    img, figure, table, tr { break-inside: avoid; }
+    h1, h2, h3 { break-after: avoid; }
+}
