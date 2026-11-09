@@ -11,7 +11,7 @@ $(document).ready(function() {
 	if($( "h1" ).text().indexOf('Releases') != -1) {
 		var count = 1;
 		// get data from github releases
-		fetch('https://api.github.com/repos/gbayarri/biomovies-app/releases')
+		fetch('https://api.github.com/repos/mmb-irb/biomovies-app/releases?per_page=100')
 			.then(res => res.json())
 			.then(json => {
 

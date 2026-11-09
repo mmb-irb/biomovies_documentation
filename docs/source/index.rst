@@ -1,6 +1,6 @@
 
-Biomovies documentation
-------------------------
+biomovies documentation
+-----------------------
 
 Contents
 ========
@@ -14,9 +14,9 @@ Contents
    Video Editor <interface>
    Create Videos <create-videos>
    Utilities <utilities>
-   Gallery ➚ <https://gbayarri.github.io/biomovies/#gallery>
-   Tutorials ➚ <https://gbayarri.github.io/biomovies/#tutorials>
+   Gallery ➚ <https://mmb-irb.github.io/biomovies/#gallery>
+   Tutorials ➚ <https://mmb-irb.github.io/biomovies/#tutorials>
    Releases <releases>
 
-`Github repository <https://github.com/gbayarri/biomovies-app>`_.
+`Github repository <https://github.com/mmb-irb/biomovies-app>`_.
 ======================================================================
