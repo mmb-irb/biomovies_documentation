@@ -34,6 +34,9 @@ when something goes wrong.
 Movies made with biomovies are in the [**website gallery** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://mmb-irb.github.io/biomovies/#gallery),
 and step-by-step videos in its [**tutorials** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://mmb-irb.github.io/biomovies/#tutorials).
 
+This documentation is also a <a href="_static/biomovies-manual.pdf" target="_blank"><strong>PDF to read offline</strong> <i class="fa-solid fa-file-pdf" style="font-size: 12px;"></i></a>
+(in the app too: *Help > Offline Documentation*).
+
 ## Requirements
 
 | | <i class="fa-brands fa-apple"></i> macOS | <i class="fa-brands fa-windows"></i> Windows | <i class="fa-brands fa-ubuntu"></i> Linux |
