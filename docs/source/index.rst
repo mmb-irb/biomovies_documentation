@@ -11,6 +11,7 @@ Contents
    Introduction <introduction>
    Installation <installation>
    Getting started <get-started>
+   The stage <editor-stage>
    Video Editor <interface>
    Create Videos <create-videos>
    Utilities <utilities>
