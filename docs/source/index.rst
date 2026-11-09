@@ -14,6 +14,7 @@ Contents
    The stage <editor-stage>
    The timeline <editor-timeline>
    Representations <representations>
+   Trajectories <trajectories>
    Video Editor <interface>
    Create Videos <create-videos>
    Utilities <utilities>

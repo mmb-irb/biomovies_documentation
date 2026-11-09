@@ -86,7 +86,7 @@ From left to right, after **+ New**:
 | **Player** | First frame, previous frame, play / pause, next frame, last frame. |
 
 With a trajectory, the right end of the toolbar also shows the trajectory frame at the cursor (see
-[Trajectories](interface.html#trajectories)).
+[Trajectories](trajectories.html)).
 
 Every change can be undone with **Edit > Undo** (⌘Z, Ctrl+Z) and redone with **Edit > Redo**. All the shortcuts of the
 *Timeline* menu are in [Tips and shortcuts](utilities.html#shortcuts).
