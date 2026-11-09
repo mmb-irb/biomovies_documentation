@@ -19,7 +19,7 @@ Contents
    Exporting videos <create-videos>
    Templates <templates>
    AI assistants <ai-assistants>
-   Utilities <utilities>
+   Tips and shortcuts <tips>
    Gallery ➚ <https://mmb-irb.github.io/biomovies/#gallery>
    Tutorials ➚ <https://mmb-irb.github.io/biomovies/#tutorials>
    Releases <releases>
