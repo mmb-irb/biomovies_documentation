@@ -90,7 +90,7 @@ Every step can be undone with **Edit > Undo** (⌘Z, Ctrl+Z).
 ## What next
 
 * The editor, area by area: the stage and its tools, the timeline, representations, trajectories and descriptions.
-* [**Exporting videos**](create-videos.html): MP4 in 3D, animated GIFs, PNG frames, a part of the movie.
+* [**Exporting videos**](create-videos.html): sizes up to 4K, 3D videos, animated GIFs, a part of the movie.
 * **AI assistants**: ask Claude Code, Claude Desktop, opencode or VS Code's Copilot to build a movie like this one for
   you.
 * The [**tutorials** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://mmb-irb.github.io/biomovies/#tutorials)

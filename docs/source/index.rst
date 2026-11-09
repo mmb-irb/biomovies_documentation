@@ -16,7 +16,7 @@ Contents
    Representations <representations>
    Trajectories <trajectories>
    Descriptions <descriptions>
-   Create Videos <create-videos>
+   Exporting videos <create-videos>
    Utilities <utilities>
    Gallery ➚ <https://mmb-irb.github.io/biomovies/#gallery>
    Tutorials ➚ <https://mmb-irb.github.io/biomovies/#tutorials>

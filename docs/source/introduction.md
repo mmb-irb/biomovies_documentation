@@ -20,7 +20,7 @@ structure, you build a movie clip by clip, each clip with its own representation
 * **Build** the movie in clips: in each one, **representations** (what to show, how and in which colour) and the
   **camera**; between them, **transitions** and **fades**. Add **descriptions** (text on screen), **labels** and
   **measurements**, and play the **trajectory** inside the clips.
-* **Export** an **MP4 video** (from 720p up to **4K**, also in **3D**), an **animated GIF** or **PNG** frames, of the
+* **Export** an **MP4 video** (from 720p up to **4K**, also in **3D**), or an **animated GIF**, of the
   whole movie or of a part of it.
 * **Save** the project in a **.biomovies** file, with the structure and the trajectory inside, to edit or share it.
   **Templates** make the same movie of another structure: start from a ready-made one or save your own.
