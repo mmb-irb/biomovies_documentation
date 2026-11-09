@@ -5,7 +5,7 @@
 The **timeline**, at the bottom of the editor, is the movie in time. It has two rows:
 
 * the **structure** (the row named after its file): **clips**, and the **transitions** and **fades** between them;
-* **Descriptions**: the texts over the movie (see [Descriptions](interface.html#descriptions)).
+* **Descriptions**: the texts over the movie (see [Descriptions](descriptions.html)).
 
 Every item starts and ends with a **keyframe**, the small diamond at each end of its bar. The **cursor** (the white
 line) marks the time the stage shows, and the **timer** on the left says it in minutes, seconds and milliseconds. Times
@@ -60,7 +60,7 @@ The **+ New** button (and *Timeline > New Item* in the menu):
 | **Transition** | The last keyframe of a clip and the first of the next one, selected (click, then Shift+click), at least 0.4 s apart. | A transition filling the gap between them. |
 | **Fade In** | A clip's first keyframe selected, with room before it (about 0.5 s). | A fade in before the clip. |
 | **Fade Out** | A clip's last keyframe selected, with room after it (about 0.5 s). | A fade out after the clip. |
-| **Description** | For the second one on, a selected description. | The first description goes at the start of the movie, 1 s long. Then *Description After* and *Description Before* add one next to the selected description, and the *Cloned* versions copy its text and style. See [Descriptions](interface.html#descriptions). |
+| **Description** | For the second one on, a selected description. | The first description goes at the start of the movie, 1 s long. Then *Description After* and *Description Before* add one next to the selected description, and the *Cloned* versions copy its text and style. See [Descriptions](descriptions.html). |
 
 When something is missing (no clip selected, not enough room), a message says what to do.
 

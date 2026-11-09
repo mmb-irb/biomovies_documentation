@@ -15,7 +15,7 @@ Contents
    The timeline <editor-timeline>
    Representations <representations>
    Trajectories <trajectories>
-   Video Editor <interface>
+   Descriptions <descriptions>
    Create Videos <create-videos>
    Utilities <utilities>
    Gallery ➚ <https://mmb-irb.github.io/biomovies/#gallery>
