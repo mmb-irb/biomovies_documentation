@@ -75,8 +75,9 @@ to the right, leaving at least 0.4 seconds between the clips. Click the **last k
 keyframe** of the second, and choose **+ New > Transition**. During the transition, the camera flies from one clip to
 the other and the representations fade from one to the other.
 
-**8. Add a text.** Move the timeline cursor to the first clip and choose **+ New > Description**. Type its text in the
-right panel (for example *HIV protease*) and choose where it goes on the screen.
+**8. Add a text.** Choose **+ New > Description**: the first description goes at the start of the movie, 1 second
+long (drag its last keyframe to make it last as long as the first clip). Type its text in the right panel (for
+example *HIV protease*) and choose where it goes on the screen.
 
 **9. End with a fade.** Click the last keyframe of the second clip and choose **+ New > Fade Out**.
 
