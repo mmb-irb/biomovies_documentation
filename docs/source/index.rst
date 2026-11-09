@@ -13,6 +13,7 @@ Contents
    Getting started <get-started>
    The stage <editor-stage>
    The timeline <editor-timeline>
+   Representations <representations>
    Video Editor <interface>
    Create Videos <create-videos>
    Utilities <utilities>
