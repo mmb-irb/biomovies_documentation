@@ -8,7 +8,7 @@ A **representation** is a set of atoms drawn in a style and a colour: the protei
 stick, the water as small spheres. **Each clip has its own**: a movie changes what it shows from clip to clip, and a
 transition fades one clip's representations into the next one's.
 
-The **right panel** shows the representations of the clip under the timeline cursor (with the timeline stopped and
+The **right panel**'s **Clips** tab shows the representations of the clip under the timeline cursor (with the timeline stopped and
 nothing selected) or of the clip whose keyframe is selected, one card each, with the clip's name at the top. Changes
 are saved into that clip at once, and the transitions and fades next to it follow them.
 

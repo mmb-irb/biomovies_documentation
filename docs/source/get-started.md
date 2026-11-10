@@ -16,6 +16,7 @@ can be used once a structure is open.
 | **New project from structure code**: a **PDB ID** (from the PDBe), an **AlphaFold DB ID** or a **UniProt** accession (its AlphaFold model), downloaded for you. | ⇧⌘P | Ctrl+Shift+P |
 | **New project from MDposit**: a simulation from the [**MDposit** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://mdposit.mddbr.eu/) database, with its trajectory. | ⇧⌘M | Ctrl+Shift+M |
 | **New project from template**: a ready-made movie (or one you saved as a template) applied to your structure. | ⇧⌘I | Ctrl+Alt+I |
+| **New project with the assistant**: describe the movie you want; the [assistant](ai-assistants.html#the-assistant-in-biomovies) opens the structure and builds it. | ⌘L | Ctrl+L |
 | **Open project…**: a **.biomovies** file. | ⇧⌘O | Ctrl+Shift+O |
 
 The same entries are in the **Project** menu. On the right, **Recent projects** opens the last projects with one click,
@@ -42,8 +43,9 @@ A few things to know:
 
 * **Stage**, in the middle: the structure as it looks at the timeline cursor. Drag to turn it, scroll to zoom. The
   **tools strip** on its left has the tools for the stage (background, measurements, labels, the camera...).
-* **Right panel**: what is under the timeline cursor. For a clip, its **representations**, one card each; for a
-  description, its text and style.
+* **Right panel**, with two tabs. **Clips**: what is under the timeline cursor (for a clip, its **representations**,
+  one card each; for a description, its text and style). **Assistant**: the [assistant in
+  biomovies](ai-assistants.html#the-assistant-in-biomovies), to ask for a movie or a change.
 * **Timeline**, at the bottom: the movie in time. The **+ New** button adds clips, transitions, fades and descriptions;
   the buttons next to it edit the timeline and play the movie. Below, a row for the structure's **clips** and
   **transitions**, and one for the **descriptions**.
@@ -95,7 +97,7 @@ Every step can be undone with **Edit > Undo** (⌘Z, Ctrl+Z).
 
 * The editor, area by area: the stage and its tools, the timeline, representations, trajectories and descriptions.
 * [**Exporting videos**](create-videos.html): sizes up to 4K, 3D videos, animated GIFs, a part of the movie.
-* [**AI assistants**](ai-assistants.html): ask Claude Code, Claude Desktop, opencode or VS Code's Copilot to build a movie like this one for
+* [**AI assistants**](ai-assistants.html): ask the assistant in biomovies, or Claude Code, Claude Desktop, opencode or VS Code's Copilot to build a movie like this one for
   you.
 * The [**tutorials** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://mmb-irb.github.io/biomovies/#tutorials)
   and the [**gallery** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://mmb-irb.github.io/biomovies/#gallery)

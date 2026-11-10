@@ -1,10 +1,83 @@
 # AI assistants
 
-An **AI assistant** can build and change movies in biomovies for you: ask it in its own chat (*"make a 20-second movie
-of 1HSG showing how the inhibitor sits in the protease"*) and watch the movie being made in the editor. It opens the
-structure, plans the clips, builds them, looks at the result and corrects it.
+An **AI assistant** can build and change movies in biomovies for you: ask it (*"make a 20-second movie of 1HSG showing
+how the inhibitor sits in the protease"*) and watch the movie being made in the editor. It opens the structure, plans
+the clips, builds them, looks at the result and corrects it.
 
-biomovies works with four assistants, which you use with your own account:
+There are two ways:
+
+* **The assistant in biomovies**: a panel in the editor, with a language model from a provider you choose (Google,
+  Anthropic, OpenRouter, a model on your own computer...). See [The assistant in biomovies](#the-assistant-in-biomovies).
+* **Assistants in other apps**, connected to biomovies: see [Assistants in other apps](#assistants-in-other-apps).
+
+biomovies includes no AI and no account of its own: you use your own key or account, and the provider's plan applies.
+
+## The assistant in biomovies
+
+<img src="_static/pictures/assistant-panel.png" alt="The assistant's panel in the editor" style="max-width:380px; margin-bottom:0;" />
+
+<span style="font-size:12px;">The assistant's panel, in the editor's right column</span>
+
+### Setting it up
+
+<img src="_static/pictures/assistant-settings.png" alt="The assistant's settings" style="max-width:560px; margin-bottom:0;" />
+
+<span style="font-size:12px;">Assistant > Connection…, In biomovies</span>
+
+**Assistant > Connection…**, tab **In biomovies**:
+
+1. Choose a **provider**:
+
+   | Provider | What to know |
+   | :-- | :-- |
+   | **Google AI Studio** | Gemini models, with a free tier to start (a key at [aistudio.google.com/apikey](https://aistudio.google.com/apikey)). The newest models are often overloaded; an older *Flash* one usually answers. |
+   | **Anthropic** | Claude models, with prepaid credits in Anthropic's console. Claude Opus is the most capable; Sonnet and Haiku cost less. |
+   | **OpenRouter** | Many models from many companies under one key. Choose a large, recent model that takes tools; the free ones (`:free`) allow only a few requests a day. |
+   | **On this computer** | A model running in LM Studio or Ollama: no key, nothing leaves the computer. On a laptop a request takes minutes; give the model a context length of at least 32k. |
+   | **DeepSeek, Groq** | Their own keys. Groq's free tier allows too few tokens a minute for the assistant. |
+   | **Other** | Any server that speaks the OpenAI chat API: its address, a key if it needs one, and a model. |
+
+2. Paste your **API key** (the link next to it says where to get one). biomovies keeps it on this computer only,
+   encrypted by the system; it is never in a project and never sent anywhere but to the provider.
+3. Choose a **model**. The list shows only the models that can chat and use tools; the refresh button asks the
+   provider for its list again.
+4. **Test**: biomovies asks the model a short question and says whether it answered, whether it uses tools (the
+   assistant needs them) and whether it reads pictures.
+5. **Let it look at pictures of the movie** (off by default): the assistant then checks the pictures of what it built
+   and fixes what looks wrong. It needs a model that reads pictures, and each request costs more.
+6. **Save**.
+
+On **macOS**, the first time biomovies uses the saved key it asks to use its keychain entry, *"biomovies Safe Storage"*:
+type your Mac's password and choose **Always Allow**. After an update of biomovies, macOS may ask once more.
+
+**What it costs.** Each step of the assistant sends the model about 18,000 tokens (the tools and the guide), and a
+movie takes 10 to 30 steps. A free tier with a small limit per minute may refuse it (the message says so). With
+Claude, a movie costs from cents (Haiku) to a dollar or two (Opus), roughly. The panel says what each request used.
+
+### The panel
+
+<img src="_static/pictures/assistant-start.png" alt="The assistant's panel beside the start screen" style="max-width:700px; margin-bottom:0;" />
+
+<span style="font-size:12px;">New project with the assistant, on the start screen</span>
+
+* **Open it** with the **Assistant** tab of the editor's right column (beside **Clips**), with **Assistant > Assistant
+  Panel** (⌘L on macOS, Ctrl+L on Windows and Linux), or with **New project with the assistant** on the start screen.
+  Without a model or a key, the panel offers **Set up the assistant**.
+* **Ask**: type your request and press Enter (Shift+Enter for a new line), or click one of the examples. On the start
+  screen, the request creates the project; in the editor, it changes the movie open.
+* **While it works**, the editor is locked and the panel shows each step as it happens. **Stop**, or Esc, stops it.
+* **When it is done**, it says what it made. Under its answer:
+  * **N steps**: click to see what it ran, and what failed;
+  * **Undo all of it**: undoes the whole request in one go, while nothing has been changed since (after that, use
+    **Edit > Undo** step by step);
+  * **Preview the movie**: plays it from the start;
+  * how many calls to the model the request took, and about how many tokens.
+* The conversation lasts while biomovies is open (it is not saved in the project): the assistant remembers your earlier
+  requests. The broom button starts a new conversation; the gear opens the settings.
+
+## Assistants in other apps
+
+biomovies works with four assistants of other apps, which you use with your own account:
 
 * **Claude Code** (Anthropic's assistant in the terminal, or in VS Code);
 * **Claude Desktop** (its chats, Cowork and its Code tab);
@@ -12,9 +85,7 @@ biomovies works with four assistants, which you use with your own account:
   servers);
 * **VS Code's Copilot** (its chat in Agent mode).
 
-biomovies includes no AI and no account of its own: the assistant's own plan or provider applies.
-
-## Connecting an assistant
+### Connecting an assistant
 
 <img src="_static/pictures/connection-window.png" alt="The connection window" style="max-width:500px; margin-bottom:0;" />
 
@@ -40,7 +111,7 @@ A few details:
 * When biomovies is moved or updated, the window may say an assistant's tools *run a copy of biomovies that is no
   longer there*: click **Update** next to it.
 
-## Asking for a movie
+### Asking for a movie
 
 Ask in plain words, in the assistant's chat:
 
@@ -64,7 +135,7 @@ A few things to know:
   you want.
 * A movie shows **one structure**: comparing two (with and without a drug) is not possible yet.
 
-## While it works
+### While it works
 
 While the assistant changes the movie, a card at the top says what it is doing, and the editor is locked so that
 nothing changes under it; you watch the movie being built. To stop it, stop the assistant in its own window (Esc in
@@ -76,7 +147,7 @@ When it is done:
 * Everything it made can be changed in the editor as usual.
 * The assistant tells what it made, clip by clip, what it checked and what it corrected.
 
-## Pictures
+### Pictures
 
 To check its work, the assistant looks at pictures of the movie's key moments, with measurements of how its subject
 sits in each one (cut at an edge, too small, under a text).
@@ -87,7 +158,7 @@ sits in each one (cut at an edge, too small, under a text).
 
 ## Scripts
 
-What an assistant does is a list of commands, and biomovies can keep it as a **script** (a .json file):
+What an assistant does (in biomovies or in another app) is a list of commands, and biomovies can keep it as a **script** (a .json file):
 *Debugging > Save the Assistant's Commands as Script…* saves what the assistants ran since biomovies opened, and
 *Debugging > Run Script…* runs a script on the start screen or on the open project. A way to make the same movie
 again, or to share how it was made.

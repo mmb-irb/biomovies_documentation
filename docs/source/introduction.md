@@ -24,8 +24,9 @@ structure, you build a movie clip by clip, each clip with its own representation
   whole movie or of a part of it.
 * **Save** the project in a **.biomovies** file, with the structure and the trajectory inside, to edit or share it.
   **Templates** make the same movie of another structure: start from a ready-made one or save your own.
-* **Ask an AI assistant**: **Claude Code**, **Claude Desktop**, **opencode** or **VS Code's Copilot** can build and
-  change movies in the open editor, from a request or from a paper.
+* **Ask an AI assistant**: the **assistant in biomovies** (a panel in the editor, with a model from Google, Anthropic,
+  OpenRouter or your own computer), or **Claude Code**, **Claude Desktop**, **opencode** or **VS Code's Copilot**, can
+  build and change movies in the open editor, from a request or from a paper.
 
 biomovies is **non-profit experimental** software in its **Alpha** version: some **bugs** can happen. **Save** your
 projects often and [**let us know** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://github.com/mmb-irb/biomovies-app/issues/new?assignees=&labels=bug&projects=&template=bug_report.md&title=)

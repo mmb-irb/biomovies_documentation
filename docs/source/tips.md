@@ -149,6 +149,12 @@ in the editor.
 | New Movie | ⌘M | Ctrl+M | Ctrl+M |
 | New GIF | ⌘G | Ctrl+G | Ctrl+G |
 
+### Assistant
+
+| Menu entry | macOS | Windows | Linux |
+| :-- | :-- | :-- | :-- |
+| Assistant Panel | ⌘L | Ctrl+L | Ctrl+L |
+
 ### Help
 
 | Menu entry | macOS | Windows | Linux |
