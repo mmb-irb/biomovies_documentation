@@ -170,7 +170,7 @@ in the editor.
 | Stage | Drag, right-drag, scroll | Turn, move, zoom (the camera of the selected clip keyframe). |
 | Stage | Alt+click two atoms | A distance. |
 | Stage | Alt+right-click three atoms | An angle. |
-| Stage | Alt+Shift+click an atom | A label. |
+| Stage | Alt+Shift+click an atom | A label with the name of its residue. |
 | Stage | Esc | Leaves **Explore**. |
 | Timeline | Shift+click | Adds a keyframe or an item to the selection. |
 | Timeline | Double-click a bar, or ⌘+click / Ctrl+click | Selects the whole item. |

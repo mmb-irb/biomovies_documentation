@@ -26,7 +26,7 @@ To look around without changing any keyframe, use [**Explore**](#exploring-the-s
 | Hover an atom | Lights it, its letter in the [sequences](#the-sequences), and its name in the [legend](#the-tools-strip). |
 | **Alt**+click two atoms | A **distance** between them, in ångströms. |
 | **Alt**+right-click three atoms | An **angle** between them, in degrees. |
-| **Alt**+**Shift**+click an atom | A **label** with its name. |
+| **Alt**+**Shift**+click an atom | A **label** with the name of its residue (*ASP 25 A*); change it in the *Labels* tool. |
 
 On macOS, Alt is the **⌥ Option** key. Click on the atoms themselves: a click on a bond or on nothing does not count.
 Labels, distances and angles belong to the clip under the cursor: they are shown while it is on screen, and they fade
