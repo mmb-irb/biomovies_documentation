@@ -34,7 +34,7 @@ The buttons at the top of each card:
 | **Remove** | Removes it from the clip. |
 | **Collapse** / **Expand** | Folds or unfolds the card. |
 
-Below them: **Selection** (which atoms), **Opacity**, **Mol. Representation** (the style), **Color**, **Radius** (for
+Below them: **Selection** (which atoms), **Opacity**, **Representation** (the style), **Color**, **Radius** (for
 some styles) and **Show interactions**.
 
 ## Selection
@@ -81,7 +81,7 @@ example, `902:B` with a distance of 5 Å gives the pocket around a ligand. **Dis
 From 0 (invisible) to 100 (solid). Fading the context lets the subject of a clip stand out: for example, the protein at
 20 to 40 while the ligand stays solid.
 
-## Mol. Representation
+## Representation
 
 <div style="display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:8px; margin-bottom:24px;">
 <figure style="margin:0;"><img src="_static/pictures/style-cartoon.png" alt="Cartoon" style="margin-bottom:0;" /><figcaption style="font-size:12px; text-align:center;">Cartoon</figcaption></figure>

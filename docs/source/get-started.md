@@ -63,7 +63,7 @@ inhibitor. About ten minutes.
 clip's last keyframe to the right, to about 5 seconds.
 
 **3. Choose what it shows.** With the timeline cursor on the clip, the right panel shows its representation. Set
-**Selection** to *Protein*, **Mol. Representation** to *Cartoon* and **Color** to *Chain id*. Then click **+** at the
+**Selection** to *Protein*, **Representation** to *Cartoon* and **Color** to *Chain id*. Then click **+** at the
 top of the panel to add a second representation: *Ligand*, in *Ball and stick*, in a colour that stands out.
 
 **4. Set the camera.** Click the clip's **first keyframe** and turn and zoom the structure on the stage: this is the

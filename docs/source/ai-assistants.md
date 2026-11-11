@@ -65,6 +65,10 @@ Claude, a movie costs from cents (Haiku) to a dollar or two (Opus), roughly. The
   Without a model or a key, the panel offers **Set up the assistant**.
 * **Ask**: type your request and press Enter (Shift+Enter for a new line), or click one of the examples. On the start
   screen, the request creates the project; in the editor, it changes the movie open.
+* **Before your first request** (once each time biomovies opens), a window says what goes to the provider (what you
+  write, a summary of the structure, the movie's outline, its pictures if *Pictures* is on) and what does not (the
+  structure and trajectory files, the project file). **Continue** sends the request, **Not now** keeps it in the box;
+  tick **Do not show this again** to skip it from then on.
 * **While it works**, the editor is locked and the panel shows each step as it happens. **Stop**, or Esc, stops it.
 * **When it is done**, it says what it made. Under its answer:
   * **N steps**: click to see what it ran, and what failed;
@@ -89,9 +93,10 @@ biomovies works with four assistants of other apps, which you use with your own 
 
 <img src="_static/pictures/connection-window.png" alt="The connection window" style="max-width:500px; margin-bottom:0;" />
 
-<span style="font-size:12px;">The connection window</span>
+<span style="font-size:12px;">Assistant > Connection…, Other apps (MCP)</span>
 
-**Assistant > Connection…** opens the connection window, on the start screen or in the editor.
+**Assistant > Connection…**, tab **Other apps (MCP)**, on the start screen or in the editor. (MCP, the Model Context
+Protocol, is the standard these apps use to reach biomovies' tools.)
 
 1. Turn the **Connection** on. While it is on, the assistants can work on the open project (or start one from the
    start screen) when you ask them. biomovies remembers it, also after a restart, until you turn it off.
@@ -154,7 +159,7 @@ sits in each one (cut at an edge, too small, under a text).
 
 * **Claude Code**, **Claude Desktop** and **Copilot** get the pictures.
 * **opencode** gets the measurements only, as many of its models read text only. With a model that reads images, turn
-  **Pictures** on under opencode in the connection window.
+  **Pictures** on under opencode in **Assistant > Connection…**, tab **Other apps (MCP)**.
 
 ## Scripts
 
