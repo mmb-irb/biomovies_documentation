@@ -163,7 +163,31 @@ sits in each one (cut at an edge, too small, under a text).
 
 ## Scripts
 
-What an assistant does (in biomovies or in another app) is a list of commands, and biomovies can keep it as a **script** (a .json file):
-*Debugging > Save the Assistant's Commands as Script…* saves what the assistants ran since biomovies opened, and
-*Debugging > Run Script…* runs a script on the start screen or on the open project. A way to make the same movie
-again, or to share how it was made.
+What an assistant does, in biomovies or in another app, is a list of the editor's commands. biomovies can keep that
+list as a **script**, a small .json file, and run it again later.
+
+### Saving one
+
+**Assistant > Save the Assistant's Commands as Script…** saves every command the assistants ran since biomovies was
+opened, in order, with your requests as its description. Only the commands that worked are kept, and those of a
+request you undid afterwards too: save right after the requests you want to keep, or start biomovies again first.
+
+### Running one
+
+**Assistant > Run Script…** asks for the .json file and runs it:
+
+* **On the start screen**: a script that starts by creating the project (all those saved from a new movie do) makes
+  the project and builds the movie in it.
+* **In the editor**: the script changes the open project. Everything it does is **one undo step** (**Edit > Undo**).
+
+It runs the commands one after the other and **stops at the first one that fails**, saying which and why; what ran
+before it stays (and is undone in one step). Next to the script, biomovies writes what each command gave
+(*\<script\>.results.json*) and the pictures some commands take (*\<script\>.screenshot-\<n\>.png*).
+
+### What for
+
+* **The same movie again**, on another computer or after a change in biomovies, without asking an assistant (and
+  without paying for it again).
+* **Sharing how a movie was made**: send the script with the paper or to a colleague.
+* **A starting point**: run it on the start screen and change the movie in the editor, as with a template (for a
+  template of your own that fits any structure, see [Templates](templates.html)).

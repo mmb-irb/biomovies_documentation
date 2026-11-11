@@ -28,7 +28,7 @@ structure, you build a movie clip by clip, each clip with its own representation
   OpenRouter or your own computer), or **Claude Code**, **Claude Desktop**, **opencode** or **VS Code's Copilot**, can
   build and change movies in the open editor, from a request or from a paper.
 
-biomovies is **non-profit experimental** software in its **Alpha** version: some **bugs** can happen. **Save** your
+biomovies is **non-profit experimental** software in its **Beta** version: some **bugs** can still happen. **Save** your
 projects often and [**let us know** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://github.com/mmb-irb/biomovies-app/issues/new?assignees=&labels=bug&projects=&template=bug_report.md&title=)
 when something goes wrong.
 
