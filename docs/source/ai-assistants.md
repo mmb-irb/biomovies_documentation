@@ -168,9 +168,11 @@ list as a **script**, a small .json file, and run it again later.
 
 ### Saving one
 
-**Assistant > Save the Assistant's Commands as Script…** saves every command the assistants ran since biomovies was
-opened, in order, with your requests as its description. Only the commands that worked are kept, and those of a
-request you undid afterwards too: save right after the requests you want to keep, or start biomovies again first.
+**Assistant > Save the Assistant's Commands as Script…** saves the commands the assistants ran on the project you are
+working on, in order, with your requests as its description: from the one that created it, or from the first one they
+ran after you opened it. One project per script, so that it runs again: what they did to a project you closed before
+is not in it (save that one before you close it). Only the commands that worked are kept, and those of a request you
+undid afterwards too: save right after the requests you want to keep.
 
 ### Running one
 
