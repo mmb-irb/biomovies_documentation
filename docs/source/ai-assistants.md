@@ -179,7 +179,10 @@ undid afterwards too: save right after the requests you want to keep.
 **Assistant > Run Script…** asks for the .json file and runs it:
 
 * **On the start screen**: a script that starts by creating the project (all those saved from a new movie do) makes
-  the project and builds the movie in it.
+  the project and builds the movie in it. If it was made from a file on your computer that is no longer there (moved,
+  renamed, or the script run on another computer), the start screen says which file is missing and asks for the
+  structure to use instead, as for a template: another file or a structure code; for a trajectory, the structure and
+  trajectory files or an MDposit simulation. The script then runs with it; *Back* runs nothing.
 * **In the editor**: the script changes the open project. Everything it does is **one undo step** (**Edit > Undo**).
 
 It runs the commands one after the other and **stops at the first one that fails**, saying which and why; what ran
