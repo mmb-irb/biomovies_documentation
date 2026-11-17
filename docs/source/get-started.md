@@ -93,6 +93,16 @@ in the window and click **Save…**.
 
 Every step can be undone with **Edit > Undo** (⌘Z, Ctrl+Z).
 
+## Tours
+
+**Help > Tours…**, or **Tours** on the start screen, shows the editor step by step inside biomovies. Each tour matches a
+video tutorial: *The timeline at a glance* and *A simulation movie from a template* so far, the others with their video
+only. A tour lights up the part of the window each step is about and says what to do: do it yourself, or press **Show
+me** and biomovies does it for you. A step done is ticked, and **Next** takes you on when you are ready. **Back**,
+**Skip**, and **Exit** (or Esc) are in its bubble. A tour starts from the start screen with a small project of its own,
+made from files that come with biomovies (no download): a project open is closed first, and you are asked to save it.
+What the tour made stays, an ordinary project. The first time biomovies opens, it offers the tours once.
+
 ## What next
 
 * The editor, area by area: the stage and its tools, the timeline, representations, trajectories and descriptions.
