@@ -21,6 +21,9 @@ At the top of the panel:
 | **Hide all** / **Show all** | Hides or shows every representation of the clip. |
 | **Collapse all** / **Expand all** | Folds or unfolds every card. |
 
+**A tour in biomovies:** *Help > Tours…*, **The representation options**, shows this page in the editor, step by step
+([Tours](get-started.html#tours)).
+
 ## A representation's card
 
 The buttons at the top of each card:

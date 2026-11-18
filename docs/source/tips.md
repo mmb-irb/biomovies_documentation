@@ -54,6 +54,9 @@ they leave out.
 **My computer warns about biomovies when installing it.** See [Installation](installation.html): biomovies is not
 signed with a paid certificate, so the system asks you to confirm the first time.
 
+**I want the tours offered again** (the window the first time biomovies opens): delete **tours.json** in biomovies'
+settings folder (see [Tours](get-started.html#tours)). **Help > Tours…** opens them at any time.
+
 **Something went wrong.** Undo, save the project under a new name, and tell us with **Help > Report Issue**.
 
 ## Licences

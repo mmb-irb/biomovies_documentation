@@ -12,6 +12,9 @@ There are two ways:
 
 biomovies includes no AI and no account of its own: you use your own key or account, and the provider's plan applies.
 
+**A tour in biomovies:** *Help > Tours…*, **Ask the assistant**, shows this page in the editor, step by step
+([Tours](get-started.html#tours)).
+
 ## The assistant in biomovies
 
 <img src="_static/pictures/assistant-panel.png" alt="The assistant's panel in the editor" style="max-width:380px; margin-bottom:0;" />

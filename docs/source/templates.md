@@ -9,6 +9,9 @@ fades, descriptions, labels and measurements, and its trajectory settings. Appli
 same movie of it. A template file (**.tbiomovies**) is small, as it holds no structure and no trajectory: an easy way to
 share how a movie is made.
 
+**A tour in biomovies:** *Help > Tours…*, **A simulation movie from a template**, shows this page in the editor, step by
+step ([Tours](get-started.html#tours)).
+
 ## Starting from a template
 
 **New project from template** on the start screen (⇧⌘I on macOS, Ctrl+Alt+I on Windows and Linux; also in the

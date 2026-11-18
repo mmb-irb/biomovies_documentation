@@ -13,6 +13,9 @@ Every item starts and ends with a **keyframe**, the small diamond at each end of
 line) marks the time the stage shows, and the **timer** on the left says it in minutes, seconds and milliseconds. Times
 go in steps of 0.04 s, 25 frames per second, and items keep at least one step apart.
 
+**A tour in biomovies:** *Help > Tours…*, **The timeline at a glance**, shows this page in the editor, step by step
+([Tours](get-started.html#tours)).
+
 ## What each item is
 
 | Item | What it does |

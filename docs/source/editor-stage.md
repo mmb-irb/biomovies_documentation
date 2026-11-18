@@ -16,6 +16,9 @@ selected in the timeline, and the status bar says it at each moment:
 
 To look around without changing any keyframe, use [**Explore**](#exploring-the-stage).
 
+**A tour in biomovies:** *Help > Tours…*, **Point at what matters**, shows this page in the editor, step by step
+([Tours](get-started.html#tours)).
+
 ## Mouse and trackpad
 
 | Action | What it does |

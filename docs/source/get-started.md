@@ -20,8 +20,8 @@ can be used once a structure is open.
 | **Open project…**: a **.biomovies** file. | ⇧⌘O | Ctrl+Shift+O |
 
 The same entries are in the **Project** menu. On the right, **Recent projects** opens the last projects with one click,
-and **Help** links to this documentation, the tutorials and the gallery. When a new version of biomovies is out, the
-start screen says so.
+and **Help** links to this documentation, the [tours](#tours), the tutorials and the gallery. When a new version of
+biomovies is out, the start screen says so.
 
 A few things to know:
 
@@ -55,6 +55,8 @@ A few things to know:
 
 A short movie of the HIV protease with its inhibitor (PDB **1HSG**): the whole protein turning, then a close-up of the
 inhibitor. About ten minutes.
+
+**A tour in biomovies:** *Help > Tours…*, **Your first movie**, walks you through it in the editor ([Tours](#tours)).
 
 **1. Open the structure.** On the start screen, click **New project from structure code**, type `1HSG` and click
 **Open**. The editor opens with **one clip of 1 second** that shows every atom in ball and stick.
@@ -95,13 +97,60 @@ Every step can be undone with **Edit > Undo** (⌘Z, Ctrl+Z).
 
 ## Tours
 
-**Help > Tours…**, or **Tours** on the start screen, shows the editor step by step inside biomovies. Each tour matches a
-video tutorial: *The timeline at a glance* and *A simulation movie from a template* so far, the others with their video
-only. A tour lights up the part of the window each step is about and says what to do: do it yourself, or press **Show
-me** and biomovies does it for you. A step done is ticked, and **Next** takes you on when you are ready. **Back**,
-**Skip**, and **Exit** (or Esc) are in its bubble. A tour starts from the start screen with a small project of its own,
-made from files that come with biomovies (no download): a project open is closed first, and you are asked to save it.
-What the tour made stays, an ordinary project. The first time biomovies opens, it offers the tours once.
+<img src="_static/pictures/tours-window.png" alt="The tours window" style="max-width:560px; margin-bottom:0;" />
+
+<span style="font-size:12px;">The tours window (Help > Tours…)</span>
+
+A **tour** shows the editor step by step, inside biomovies. **Help > Tours…**, or **Tours** on the start screen, lists
+them: one per video tutorial, each with its video and its page of this documentation.
+
+| Tour | What it shows | More |
+| :-- | :-- | :-- |
+| **Your first movie** | A structure, its representations, the camera, a close-up, a transition, a fade, the video window. | [Your first movie](#your-first-movie), [video <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://youtu.be/xTcXmQOIebw) |
+| **Point at what matters** | The residues around a ligand, its interactions, a label, a distance, a text over the movie. | [The stage](editor-stage.html), [video <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://youtu.be/kFp-J5Ems3M) |
+| **A simulation movie from a template** | A ready-made movie applied to a simulation: its title, its trajectory, playing it. | [Templates](templates.html), [video <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://youtu.be/v7sYMJRjmrQ) |
+| **Ask the assistant** | The assistant's panel, its settings, a request in your words, its replies; the other apps. | [AI assistants](ai-assistants.html), [video <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://youtu.be/xLoqBcUJVDI) |
+| **The representation options** | Selections, opacity, styles, colours, interactions, copying a card, the sequence. | [Representations](representations.html), [video <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://youtu.be/3frD4YCwcus) |
+| **The timeline at a glance** | Moving around, playing, zooming, selecting, making an item longer, adding one, undoing. | [The timeline](editor-timeline.html), [video <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://youtu.be/FzyCwpzh73k) |
+
+<img src="_static/pictures/tour-step.png" alt="A step of the timeline tour: the ruler lit, the bubble next to it" style="margin-bottom:0;" />
+
+<span style="font-size:12px;">A step of a tour: the ruler lit, and the bubble that says what to do</span>
+
+Each step lights up the part of the window it is about, and its **bubble** says what to do. Do it yourself, or press
+**Show me** and biomovies does it for you. A step done is ticked and waits for you:
+
+<img src="_static/pictures/tour-step-done.png" alt="A step done: ticked, Next in green" style="max-width:360px; margin-bottom:0;" />
+
+<span style="font-size:12px;">A step done</span>
+
+| In the bubble | What it does |
+| :-- | :-- |
+| **Show me** | biomovies does the step for you, as you would: clicks, drags, menus. |
+| **Next** | The next step, once this one is done. |
+| **Skip** | The next step, without doing this one. |
+| **Back** | The step before. A step you did is shown done. |
+| **Exit** (or Esc) | Ends the tour. What it made stays. |
+| **Finish** | On the last step, with the links to the tour's video and documentation: the tour is ticked in the tours window, and **Again** plays it once more. |
+
+A step in a menu names it in the bubble (for example *Edit > Undo*), as a menu cannot be lit up.
+
+**Where a tour starts.** On the start screen: if a project is open, biomovies asks first (to save it, when it has
+changes) and closes it. Most tours make a small project of their own from files that come with biomovies (1HSG, the
+HIV-1 protease and its inhibitor, and a short simulation for the templates tour): no download, the same every time. In
+*Your first movie* you make the project yourself (**Show me** opens the 1HSG that comes with biomovies), and *Ask the
+assistant* needs no key and sends nothing to a provider. What a tour made stays, an ordinary project: save it if you
+want it. Closing it (**Project > Close Project**) ends the tour.
+
+**The first time biomovies opens**, it offers the tours once (*New here? Take a tour*). Which tours you finished, and
+whether they were offered, are kept in the file **tours.json**, in biomovies' settings folder:
+
+* macOS: `~/Library/Application Support/biomovies` (the Library folder is hidden: in the Finder, **Go > Go to
+  Folder…** and paste the path);
+* Windows: `%APPDATA%\biomovies`;
+* Linux: `~/.config/biomovies`.
+
+Delete it to have the tours offered again the next time biomovies opens.
 
 ## What next
 
