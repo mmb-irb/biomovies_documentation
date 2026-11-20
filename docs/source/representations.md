@@ -56,7 +56,9 @@ Which atoms the representation draws. The list offers the usual sets:
 ### Custom selections
 
 Choose **Custom** in the list to type a selection; the button on the left of the box goes back to the list. Residue
-numbers and chain names are the file's own.
+numbers and chain names are the file's own. A PDB file with no chain names (often from a simulation) gets them as it
+opens: the first letters the file does not use, a new one where the residue numbering starts again. The file itself is
+not changed.
 
 | Type | To select |
 | :-- | :-- |
