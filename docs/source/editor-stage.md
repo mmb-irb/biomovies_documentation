@@ -33,7 +33,8 @@ To look around without changing any keyframe, use [**Explore**](#exploring-the-s
 
 On macOS, Alt is the **⌥ Option** key. Click on the atoms themselves: a click on a bond or on nothing does not count.
 Labels, distances and angles belong to the clip under the cursor: they are shown while it is on screen, and they fade
-with it in its transitions.
+with it in its transitions and fades. Untick **Fade** next to one, in the *Labels* or *Measurements* tool, and it shows
+only while its clip does: it appears when the clip starts and goes when it ends, with no fade.
 
 ## The tools strip
 
@@ -49,8 +50,8 @@ and double-click the handle to fold it. *View > Tools* hides it.
 | **Explore** | Look around freely, without changing the keyframes (see [Exploring the stage](#exploring-the-stage)). With the timeline stopped and its cursor on a clip. |
 | **Center** | Brings the whole structure into view, saved into the selected keyframe. |
 | **Background** | The colour behind the structure, for the whole movie. |
-| **Measurements** | The distances and angles of the clip: their size, their colour, removing them. A label size of 0 leaves the line without its value. |
-| **Labels** | The labels of the clip: their text, size, colour and background (the switch turns the background off), and their style: *Placed by itself* (set apart from the atom with a line, the text keeping just outside the structure as it turns; drag it to choose the side and how far), *Where I drag it* (the text stays where you drop it), or *3D text at the atom* (no line). |
+| **Measurements** | The distances and angles of the clip: their size, their colour, whether they fade in transitions (**Fade**), removing them. A label size of 0 leaves the line without its value. |
+| **Labels** | The labels of the clip: their text, size, colour and background (the switch turns the background off), whether they fade in transitions (**Fade**), and their style: *Placed by itself* (set apart from the atom with a line, the text keeping just outside the structure as it turns; drag it to choose the side and how far), *Where I drag it* (the text stays where you drop it), or *3D text at the atom* (no line). |
 | **Camera** | Perspective or orthographic projection, for the whole movie. |
 | **Center view in atom** | Then click an atom: the camera turns to centre it, saved into the selected keyframe. |
 | **Legend** | Shows, at the bottom right of the stage, the model, chain, residue and atom under the mouse. |
