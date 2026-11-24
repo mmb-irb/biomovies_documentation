@@ -34,6 +34,7 @@ Move it by its title; **Esc** or its cross closes it.
 | **Step** | How many frames it moves at each playing step: 1 plays every frame, 2 every other frame... |
 | **Timeout** | How many timeline steps (0.04 s each) between playing steps: 1 is the fastest. |
 | **Play in reverse** | Plays the range from its last frame to its first. |
+| **Smooth between frames** | While a frame is held (a timeout above 1), the atoms move towards the next frame instead of waiting, then jumping (see [Smooth between frames](#smooth-between-frames)). |
 
 Below them, the window adds it up: how long the **clip** lasts, how long the **trajectory** needs with these settings
 (and how many frames it plays), and the **speed** in frames per second. A line says how they match:
@@ -48,6 +49,24 @@ later to make room (a description that would be cut too short is removed, and th
 
 With a trajectory, the right end of the timeline's toolbar shows which frame the cursor is on, among the frames the
 clip plays (the trajectory's own frame number in its tooltip).
+
+## Smooth between frames
+
+A clip that shows each frame for a moment (a **Timeout** above 1, or a long clip fitted to few frames) holds a frame,
+then jumps to the next. With **Smooth between frames** on, the atoms go from one frame's place to the next one's while
+the frame is held: the movie flows, and the frames are still there at their times. On the stage and in the videos alike.
+
+It draws the atoms on straight lines between two frames, so:
+
+* **Periodic boundaries:** an atom that leaves the simulation box on one side and comes back on the other would fly
+  across the box between those two frames. Make the molecules whole (for example *gmx trjconv -pbc mol*) before using the
+  trajectory, as for any movie.
+* **Frames far apart in time:** a group that turns between two frames shrinks a little midway. With frames close in
+  time it does not show.
+* **Very large systems** (hundreds of thousands of atoms) may play more slowly in the editor, as each moment between
+  frames is computed; the exported videos are not affected.
+
+Each clip has its own setting, off by default.
 
 ## Through transitions
 

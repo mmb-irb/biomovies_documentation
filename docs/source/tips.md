@@ -25,6 +25,19 @@
 * **Share** a movie as a **.biomovies** file (with the structure and the trajectory inside), or as a template
   (**.tbiomovies**: small, without them).
 
+## Project files
+
+A **.biomovies** file holds the project (its clips, cameras, representations, labels, descriptions...), its structure
+and its trajectory; a **.tbiomovies** template holds only the project. From 0.12.0, both are in biomovies' own format:
+compressed (an XTC trajectory, already compressed, is kept as it is) and checked, so that a damaged file says which part
+is damaged. Only biomovies opens them.
+
+* **Files saved before 0.12.0** open as always. Saving one over itself converts it to the new format, after a notice.
+* **Versions before 0.12.0** cannot open the new files (0.11.5 and 0.11.6 say that a newer biomovies is needed): share a
+  project with someone on an older version only after they update.
+* **The files inside a project**: *Project > Export Project Contents…* writes **project.json**, the structure and the
+  trajectory to a new folder inside the one you choose (named after the project), as the project is at that moment.
+
 ## Big projects
 
 A project with hundreds of representations, or a structure of millions of atoms in many clips, would not fit in the
